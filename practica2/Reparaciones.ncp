@@ -1,0 +1,174 @@
+<Project>
+  <Name>Reparaciones</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Core</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Aparato</Name>
+        <Access>Public</Access>
+        <Location left="442" top="53" />
+        <Size width="192" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public int Nserie { get; set; }</Member>
+        <Member type="Property">public string Modelo { get; set; }</Member>
+        <Member type="Property">public int PrecioHora { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Radio</Name>
+        <Access>Public</Access>
+        <Location left="83" top="410" />
+        <Size width="177" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public Bandas banda { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Enum">
+        <Name>Bandas</Name>
+        <Access>Public</Access>
+        <Location left="83" top="685" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Value>AM</Value>
+        <Value>FM</Value>
+        <Value>AmFm</Value>
+      </Entity>
+      <Entity type="Class">
+        <Name>Televisor</Name>
+        <Access>Public</Access>
+        <Location left="332" top="410" />
+        <Size width="172" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public float Pulgadas { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DVD</Name>
+        <Access>Public</Access>
+        <Location left="571" top="410" />
+        <Size width="207" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public bool BlueRay { get; set; }</Member>
+        <Member type="Property">public bool Grabar { get; set; }</Member>
+        <Member type="Property">public float TiempoGrabacion { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>TDT</Name>
+        <Access>Public</Access>
+        <Location left="855" top="410" />
+        <Size width="208" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public bool Grabar { get; set; }</Member>
+        <Member type="Property">public float TiempoGrabacion { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Reparacion</Name>
+        <Access>Public</Access>
+        <Location left="912" top="53" />
+        <Size width="186" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public float Conversion { get; set; }</Member>
+        <Member type="Method">public void TipoReparacion()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SustitucionPiezas</Name>
+        <Access>Public</Access>
+        <Location left="1341" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Property">public float PrecioConvertido { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ReparacionCompleja</Name>
+        <Access>Public</Access>
+        <Location left="1341" top="267" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>177</X>
+          <Y>343</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>537</X>
+          <Y>306</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="1" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartMultiplicity>0..*</StartMultiplicity>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>428</X>
+          <Y>344</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>537</X>
+          <Y>304</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>672</X>
+          <Y>354</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>537</X>
+          <Y>294</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>954</X>
+          <Y>354</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>537</X>
+          <Y>294</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="7" second="6">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1312</X>
+          <Y>161</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="8" second="6">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="0" second="6">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
