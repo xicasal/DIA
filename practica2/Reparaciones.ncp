@@ -7,12 +7,13 @@
       <Entity type="Class">
         <Name>Aparato</Name>
         <Access>Public</Access>
-        <Location left="442" top="53" />
-        <Size width="192" height="216" />
+        <Location left="332" top="53" />
+        <Size width="336" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public int num_serie { get; }</Member>
         <Member type="Property">public string modelo { get; }</Member>
         <Member type="Property">public int precio_por_hora { get; }</Member>
+        <Member type="Constructor">public Aparato(int num_serie, string modelo, int precio_por_horas)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -21,7 +22,7 @@
         <Location left="83" top="410" />
         <Size width="177" height="216" />
         <Collapsed>False</Collapsed>
-        <Member type="Property">public Bandas banda { get; set; }</Member>
+        <Member type="Property">public Bandas banda { get; }</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Enum">
@@ -37,31 +38,34 @@
       <Entity type="Class">
         <Name>Televisor</Name>
         <Access>Public</Access>
-        <Location left="332" top="410" />
+        <Location left="305" top="410" />
         <Size width="172" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public float pulgadas { get; }</Member>
+        <Member type="Constructor">public Televisor(float pulgadas)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>DVD</Name>
         <Access>Public</Access>
-        <Location left="571" top="410" />
-        <Size width="207" height="216" />
+        <Location left="541" top="410" />
+        <Size width="382" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public bool tiene_BlueRay { get; }</Member>
         <Member type="Property">public bool puede_grabar { get; }</Member>
         <Member type="Property">public float tiempo_grabacion { get; }</Member>
+        <Member type="Constructor">public DVD(bool tiene_BlueRay, bool puede_grabar, float tiempo_grabacion)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>TDT</Name>
         <Access>Public</Access>
-        <Location left="855" top="410" />
-        <Size width="208" height="216" />
+        <Location left="959" top="410" />
+        <Size width="281" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public bool puede_grabar { get; }</Member>
         <Member type="Property">public float tiempo_grabacion { get; }</Member>
+        <Member type="Constructor">public TDT(bool puede_grabar, float tiempo_grabacion)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -71,25 +75,28 @@
         <Size width="239" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public float precio_convertido { get; }</Member>
+        <Member type="Constructor">public SustitucionPiezas(float precio_convertido)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>ReparacionCompleja</Name>
         <Access>Public</Access>
         <Location left="1341" top="267" />
-        <Size width="239" height="216" />
+        <Size width="257" height="216" />
         <Collapsed>False</Collapsed>
-        <Member type="Property">public int precio_convertido { get; }</Member>
+        <Member type="Property">public float precio_convertido { get; }</Member>
+        <Member type="Constructor">public ReparacionCompleja(float precio_convertido)</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
         <Name>Reparacion</Name>
         <Access>Public</Access>
-        <Location left="842" top="53" />
-        <Size width="347" height="216" />
+        <Location left="752" top="53" />
+        <Size width="399" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">float precio_base</Member>
         <Member type="Property">public float conversion_tiempo_en_media_horas { get; }</Member>
+        <Member type="Constructor">public Reparacion(float conversion_tiempo_en_media_horas, float precio_base)</Member>
         <Modifier>None</Modifier>
       </Entity>
     </Entities>
@@ -102,8 +109,8 @@
           <Y>343</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>537</X>
-          <Y>306</Y>
+          <X>487</X>
+          <Y>308</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Association" first="1" second="2">
@@ -120,36 +127,32 @@
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>428</X>
+          <X>401</X>
           <Y>344</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>537</X>
-          <Y>304</Y>
+          <X>485</X>
+          <Y>302</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="4" second="0">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>672</X>
+          <X>642</X>
           <Y>354</Y>
-        </BendPoint>
-        <BendPoint relativeToStartShape="False">
-          <X>537</X>
-          <Y>294</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="5" second="0">
         <StartOrientation>Vertical</StartOrientation>
         <EndOrientation>Vertical</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>954</X>
+          <X>1058</X>
           <Y>354</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>537</X>
-          <Y>294</Y>
+          <X>485</X>
+          <Y>298</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="6" second="8">
@@ -160,7 +163,7 @@
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="False">
-          <X>1218</X>
+          <X>1180</X>
           <Y>140</Y>
         </BendPoint>
       </Relationship>
@@ -170,11 +173,11 @@
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>659</X>
+          <X>693</X>
           <Y>161</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>817</X>
+          <X>727</X>
           <Y>161</Y>
         </BendPoint>
         <Direction>Unidirectional</Direction>
