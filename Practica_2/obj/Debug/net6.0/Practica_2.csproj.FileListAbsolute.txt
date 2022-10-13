@@ -1,0 +1,15 @@
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Practica_2.exe
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Practica_2.deps.json
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Practica_2.runtimeconfig.json
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Practica_2.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Practica_2.pdb
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.csproj.AssemblyReference.cache
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.AssemblyInfoInputs.cache
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.AssemblyInfo.cs
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.csproj.CoreCompileInputs.cache
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\refint\Practica_2.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.pdb
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.genruntimeconfig.cache
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\ref\Practica_2.dll
