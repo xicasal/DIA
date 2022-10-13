@@ -13,3 +13,16 @@ C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider
 C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.pdb
 C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.genruntimeconfig.cache
 C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\ref\Practica_2.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Base.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Controls.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.DesignerSupport.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Dialogs.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Markup.Xaml.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Markup.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.MicroCom.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.OpenGL.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\Avalonia.Remote.Protocol.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\bin\Debug\net6.0\System.Reactive.dll
+C:\Users\Xavier Iglesias\Documents\Universidad\primer_cuatri\dia\proyectos_rider\Practica_2\Practica_2\obj\Debug\net6.0\Practica_2.csproj.CopyComplete

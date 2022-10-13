@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Reparaciones>
+  <Sustitución_a_piezas>
+    <Modelo_aparato>NoSintoniza</Modelo_aparato>
+    <Num_serie_Aparato>12679</Num_serie_Aparato>
+    <Tiempo_reparacion>0.5</Tiempo_reparacion>
+  </Sustitución_a_piezas>
+  <Reparación_compleja>
+    <Modelo_aparato>CatastrofeFm</Modelo_aparato>
+    <Num_serie_Aparato>33356</Num_serie_Aparato>
+    <Tiempo_reparacion>1.5</Tiempo_reparacion>
+  </Reparación_compleja>
+  <Reparación_compleja>
+    <Modelo_aparato>EJ407</Modelo_aparato>
+    <Num_serie_Aparato>33476</Num_serie_Aparato>
+    <Tiempo_reparacion>2.5</Tiempo_reparacion>
+  </Reparación_compleja>
+</Reparaciones>

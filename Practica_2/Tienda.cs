@@ -1,4 +1,5 @@
 ﻿
+using Practica_2;
 using Practica_2.Core;
 using Practica_2.Core.Tipos_Aparatos;
 using Practica_2.Core.Tipos_Reparacion;
@@ -179,5 +180,11 @@ public class Tienda {
         tienda_benito_y_manolo.añadir_a_tipo_de_reparacion(Reparacion_DVD1);
         
         Console.WriteLine(tienda_benito_y_manolo);
+        
+        var xml_inventario = new XmlInventario(tienda_benito_y_manolo);
+        xml_inventario.GuardaInventario();
+
+        var xml_reparaciones = new XmlReparaciones(tienda_benito_y_manolo);
+        xml_reparaciones.GuardaReparaciones();
     }
 }

@@ -12,4 +12,10 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Xavier Iglesias\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)avalonia\11.0.0-preview2\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.0.0-preview2\buildTransitive\Avalonia.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\Xavier Iglesias\.nuget\packages\avalonia\11.0.0-preview2</PkgAvalonia>
+  </PropertyGroup>
 </Project>

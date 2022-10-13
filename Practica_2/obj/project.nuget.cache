@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "z6/P9tkBu1AzkJ2nA26wPHW2npo4YDTXEI6SAhLgrN3XsE5YPMEdC61KzmVXPscbMTxv3X6Gar6BW7HqdafEZg==",
+  "dgSpecHash": "U8k6izG+8VA6pjrRyteVm2fOavoVwMPMrmJn/veiZl1XGahJdhfJ2ARGEvuQWRo/3AbEu9BTW7Ekj7GsQ5hLIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Xavier Iglesias\\Documents\\Universidad\\primer_cuatri\\dia\\proyectos_rider\\Practica_2\\Practica_2\\Practica_2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\avalonia\\11.0.0-preview2\\avalonia.11.0.0-preview2.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\avalonia.remote.protocol\\11.0.0-preview2\\avalonia.remote.protocol.11.0.0-preview2.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\jetbrains.annotations\\10.3.0\\jetbrains.annotations.10.3.0.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\Xavier Iglesias\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }
